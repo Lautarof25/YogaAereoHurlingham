@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="overflow-x-clip">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -145,7 +145,7 @@
     <div class="lg:col-span-5 relative flex items-center justify-center">
       
       <!-- Círculo Pincelada Gigante (Eco del logo girando suavemente detrás) -->
-      <svg class="w-[380px] h-[380px] sm:w-[460px] sm:h-[460px] text-magenta/90 animate-enso absolute" viewBox="0 0 200 200">
+      <svg class="w-[min(380px,calc(100vw-3rem))] h-[min(380px,calc(100vw-3rem))] sm:w-[460px] sm:h-[460px] text-magenta/90 animate-enso absolute" viewBox="0 0 200 200">
         <circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" stroke-width="5" stroke-dasharray="320 40 150 25" stroke-linecap="round"/>
         <circle cx="100" cy="100" r="86" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="200 60 190 30" stroke-linecap="round"/>
       </svg>
@@ -165,7 +165,7 @@
       </div>
 
       <!-- Tarjeta Flotante 2: Ubicación Casa Aire -->
-      <div class="absolute -top-2 -right-2 sm:right-0 bg-white px-4 py-2.5 rounded-2xl shadow-xl border border-magenta/10 flex items-center gap-2 z-20">
+      <div class="absolute -top-2 right-0 bg-white px-4 py-2.5 rounded-2xl shadow-xl border border-magenta/10 flex items-center gap-2 z-20">
         <span class="text-lg">🌿</span>
         <span class="text-xs font-bold text-botanico">Espacio Casa Aire</span>
       </div>
