@@ -63,13 +63,8 @@
   <header class="relative z-30 max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
     <!-- Logo + Marca -->
     <a href="#" class="flex items-center gap-4 group">
-      <!-- Recreación vectorial fiel a tu logo YA con borde de pincel -->
-      <div class="relative w-14 h-14 rounded-full bg-magenta flex items-center justify-center shadow-lg shadow-magenta/30 group-hover:scale-105 transition">
-        <svg class="absolute inset-0 w-full h-full -m-1 text-magenta scale-110" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3.5" stroke-dasharray="180 25 90 15" stroke-linecap="round"/>
-          <circle cx="50" cy="50" r="48.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="120 40 80 30" stroke-linecap="round"/>
-        </svg>
-        <span class="font-logo text-white text-2xl font-light tracking-tighter">YA</span>
+      <div class="w-14 h-14 rounded-full overflow-hidden shadow-lg shadow-magenta/30 group-hover:scale-105 transition">
+        <img src="logo.png" alt="Logo de Yoga Aéreo Hurlingham" class="w-full h-full object-cover">
       </div>
       <div>
         <span class="block font-logo font-bold text-lg leading-none text-gray-900 tracking-wide">YOGA AÉREO</span>
@@ -156,25 +151,8 @@
       </svg>
 
       <!-- Contenedor Circular Principal que "Flota" -->
-      <div class="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-magenta overflow-hidden shadow-2xl border-8 border-white animate-suspension flex flex-col items-center justify-end p-8 text-center text-white">
-        <!-- Telas colgando (Ilustración minimalista + atmósfera) -->
-        <div class="absolute inset-0 bg-gradient-to-b from-magenta via-magenta to-magenta-dark opacity-95"></div>
-        
-        <!-- Silueta artística de hamaca aérea y postura terapéutica -->
-        <svg class="relative z-10 w-44 h-44 mb-2 stroke-white fill-none" viewBox="0 0 100 100" stroke-width="2.2" stroke-linecap="round">
-          <!-- Telas que bajan del techo -->
-          <path d="M35 0 C35 35, 42 55, 50 65 C58 55, 65 35, 65 0" stroke-width="2.8"/>
-          <!-- Curva de la hamaca sosteniendo el cuerpo -->
-          <path d="M38 48 Q50 78 62 48" fill="rgba(255,255,255,0.18)" />
-          <!-- Figura humana estilizada en relajación aérea -->
-          <circle cx="50" cy="42" r="5" fill="white"/>
-          <path d="M32 58 Q50 50 68 58" />
-        </svg>
-
-        <div class="relative z-10">
-          <p class="font-logo text-2xl font-bold tracking-wide">Ingravidez & Alivio</p>
-          <p class="text-xs text-pink-100 mt-1">Hamacas de tela suave · Soporte seguro</p>
-        </div>
+      <div class="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full overflow-hidden shadow-2xl border-8 border-white animate-suspension">
+        <img src="logo.png" alt="Logo de Yoga Aéreo Hurlingham" class="w-full h-full object-cover">
       </div>
 
       <!-- Tarjeta Flotante 1: Beneficio Terapéutico -->
@@ -218,6 +196,109 @@
           <h3 class="font-bold text-gray-900 text-sm">Acompañamiento personalizado</h3>
           <p class="text-xs text-gray-600 mt-1">En <strong>Garibaldi 1756</strong> te guiamos paso a paso desde cero, respetando el ritmo y la edad de cada cuerpo.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIAS GRUPALES Y MEDITACIÓN SONORA -->
+  <section id="experiencias" class="relative z-10 overflow-hidden bg-gradient-to-br from-magenta-light/60 via-white to-emerald-50 py-20 sm:py-24">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+      <div class="lg:col-span-5">
+        <div class="relative max-w-md mx-auto">
+          <div class="absolute -inset-3 rounded-[2rem] bg-magenta/10 rotate-3"></div>
+          <img
+            src="flyerpromocional.jpg"
+            alt="Práctica de yoga aéreo compartida en Casa Aire"
+            class="relative w-full aspect-[4/5] object-cover rounded-[1.75rem] shadow-2xl border-4 border-white"
+            loading="lazy"
+          >
+          <div class="absolute -bottom-5 left-4 right-4 sm:left-8 sm:right-8 bg-white/95 backdrop-blur rounded-2xl shadow-lg border border-magenta/10 px-5 py-4">
+            <p class="font-logo font-bold text-gray-900">Un espacio para encontrarse</p>
+            <p class="text-sm text-gray-600 mt-1">En Casa Aire, Hurlingham</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 space-y-7 pt-5 lg:pt-0">
+        <div class="space-y-4">
+          <span class="inline-flex items-center gap-2 rounded-full bg-white border border-magenta/15 px-4 py-1.5 text-sm font-semibold text-magenta">
+            <span aria-hidden="true">🌿</span>
+            Más que una clase
+          </span>
+          <h2 class="font-logo text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
+            Hay momentos que se disfrutan más <span class="text-magenta">cuando se comparten.</span>
+          </h2>
+          <p class="text-gray-600 leading-relaxed sm:text-lg">
+            Una invitación a bajar el ritmo y regalarse un momento de conexión, bienestar y disfrute. Las propuestas se adaptan a cada grupo: pueden venir amigas, familias o personas que quieran compartir una experiencia diferente.
+          </p>
+        </div>
+
+        <article class="bg-white rounded-3xl p-6 sm:p-8 shadow-xl shadow-gray-900/5 border border-gray-100">
+          <div class="flex items-start gap-4 mb-6">
+            <span class="w-12 h-12 rounded-2xl bg-magenta-light text-2xl flex items-center justify-center shrink-0" aria-hidden="true">💗</span>
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em] font-bold text-magenta">Para compartir en grupo</p>
+              <h3 class="font-logo text-2xl font-bold text-gray-900 mt-1">Un encuentro a su manera</h3>
+              <p class="text-sm text-gray-600 mt-2 leading-relaxed">Un recorrido suave para conectar con el cuerpo, los sentidos y el momento presente.</p>
+            </div>
+          </div>
+
+          <ul class="grid sm:grid-cols-2 gap-3 text-sm text-gray-700">
+            <li class="flex items-start gap-3 rounded-2xl bg-gray-50 p-4">
+              <span class="text-lg" aria-hidden="true">🧘</span>
+              <span><strong class="text-gray-900">Movimiento suave</strong><br>y conciencia corporal</span>
+            </li>
+            <li class="flex items-start gap-3 rounded-2xl bg-gray-50 p-4">
+              <span class="text-lg" aria-hidden="true">🌸</span>
+              <span><strong class="text-gray-900">Experiencia en columpio</strong><br>para dejarse sostener</span>
+            </li>
+            <li class="flex items-start gap-3 rounded-2xl bg-gray-50 p-4">
+              <span class="text-lg" aria-hidden="true">🎶</span>
+              <span><strong class="text-gray-900">Meditación guiada</strong><br>y viaje sonoro con cuencos</span>
+            </li>
+            <li class="flex items-start gap-3 rounded-2xl bg-gray-50 p-4">
+              <span class="text-lg" aria-hidden="true">🔥</span>
+              <span><strong class="text-gray-900">Cierre en el Jardín Zen</strong><br>alrededor del fogón</span>
+            </li>
+          </ul>
+
+          <div class="mt-4 flex items-start gap-3 rounded-2xl bg-amber-50 p-4 text-sm text-gray-700">
+            <span class="text-lg" aria-hidden="true">☕</span>
+            <p><strong class="text-gray-900">Algo rico para compartir:</strong> merienda con té y budines o una pequeña cena, según la propuesta del grupo.</p>
+          </div>
+        </article>
+
+        <article class="relative overflow-hidden rounded-3xl bg-botanico p-6 sm:p-8 text-white shadow-xl shadow-botanico/20">
+          <div class="absolute -right-10 -top-14 w-48 h-48 rounded-full border border-white/10"></div>
+          <div class="absolute -right-5 -top-9 w-36 h-36 rounded-full border border-white/10"></div>
+          <div class="relative flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+            <div class="max-w-lg">
+              <p class="text-xs uppercase tracking-[0.18em] font-bold text-emerald-100">Una experiencia inmersiva</p>
+              <h3 class="font-logo text-2xl sm:text-3xl font-bold mt-2">Meditación sonora chamánica en columpio</h3>
+              <p class="text-sm sm:text-base text-white/85 mt-3 leading-relaxed">
+                Dejá que las vibraciones y los sonidos te acompañen mientras descansás suspendida en el aire. Un espacio para soltar tensiones, relajarte profundamente y renovar tu energía.
+              </p>
+            </div>
+            <a
+              href="https://wa.me/5491136726813?text=Hola%20Mar!%20Quiero%20consultar%20por%20la%20meditaci%C3%B3n%20sonora%20cham%C3%A1nica%20en%20columpio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-white px-6 py-3 font-bold text-botanico transition hover:bg-emerald-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+            >
+              Consultar por WhatsApp <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <p class="text-center text-sm text-gray-600">
+          ¿Querés organizar un encuentro para tu grupo?
+          <a
+            href="https://wa.me/5491136726813?text=Hola%20Mar!%20Quiero%20consultar%20por%20una%20experiencia%20grupal%20en%20Casa%20Aire"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-magenta underline decoration-magenta/30 underline-offset-4 hover:text-magenta-dark"
+          >Escribinos y lo pensamos juntas.</a>
+        </p>
       </div>
     </div>
   </section>
