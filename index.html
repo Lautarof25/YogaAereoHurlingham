@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yoga Aéreo Hurlingham | Mar Zubiri - Casa Aire</title>
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
   <!-- Google Fonts: Quicksand (simula el trazo geométrico redondeado de 'YA') & Plus Jakarta Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
   
@@ -31,29 +30,6 @@
   <meta name="twitter:description" content="Practicá yoga aéreo terapéutico con Mar Zubiri en Casa Aire, Hurlingham. Clases para todas las edades. Reservá tu clase.">
   <meta name="twitter:image" content="https://lautarof25.github.io/YogaAereoHurlingham/og_image.jpg">
   <meta name="twitter:image:alt" content="Yoga aéreo terapéutico con Mar Zubiri en Casa Aire, Hurlingham">
-
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            magenta: {
-              DEFAULT: '#DE006F',
-              dark: '#B30059',
-              light: '#FCE8F2'
-            },
-            aire: '#FAFAFA',
-            botanico: '#2D6A4F'
-          },
-          fontFamily: {
-            logo: ['Quicksand', 'sans-serif'],
-            sans: ['Plus Jakarta Sans', 'sans-serif'],
-          }
-        }
-      }
-    }
-  </script>
 
   <style>
     /* Animación de levitación / suspensión en tela */
@@ -308,8 +284,7 @@
             class="w-full max-w-sm aspect-[9/16] rounded-2xl bg-gray-900 object-contain shadow-xl"
             controls
             playsinline
-            preload="metadata" 
-            loading="lazy" 
+            preload="none"
             poster="yoga_explicacion.avif"
             aria-label="Video destacado: explicación sobre yoga aéreo"
           >
@@ -340,8 +315,7 @@
             class="mx-auto w-full max-w-sm aspect-[9/16] bg-gray-900 object-contain"
             controls
             playsinline
-            preload="metadata" 
-            loading="lazy" 
+            preload="none"
             poster="clase_yoga.avif"
             aria-label="Video sobre las clases de yoga aéreo"
           >
@@ -360,8 +334,7 @@
             class="mx-auto w-full max-w-sm aspect-[9/16] bg-gray-900 object-contain"
             controls
             playsinline
-            preload="metadata" 
-            loading="lazy" 
+            preload="none"
             poster="instruccion_yoga.avif"
             aria-label="Video con instrucciones de yoga aéreo"
           >
